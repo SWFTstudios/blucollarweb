@@ -1,0 +1,47 @@
+.uui-navbar03_component,
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.uui-navbar03_component .header-menu-button-icon-wrapper,
+.header .header-menu-button-icon-wrapper {
+  background-color: #ffffff;
+  border-radius: 999px;
+  transition: background-color 200ms ease;
+}
+
+.uui-navbar03_component .header-menu-button-icon-top,
+.uui-navbar03_component .header-menu-button-icon-medium,
+.uui-navbar03_component .header-menu-button-icon-bottom,
+.header .header-menu-button-icon-top,
+.header .header-menu-button-icon-medium,
+.header .header-menu-button-icon-bottom {
+  background-color: #16589a;
+  transition: background-color 200ms ease;
+}
+
+.uui-navbar03_component .menu-button:hover .header-menu-button-icon-wrapper,
+.uui-navbar03_component .menu-button.w--open .header-menu-button-icon-wrapper,
+.header .menu-button:hover .header-menu-button-icon-wrapper,
+.header .menu-button.w--open .header-menu-button-icon-wrapper {
+  background-color: #16589a;
+}
+
+.uui-navbar03_component .menu-button:hover .header-menu-button-icon-top,
+.uui-navbar03_component .menu-button:hover .header-menu-button-icon-medium,
+.uui-navbar03_component .menu-button:hover .header-menu-button-icon-bottom,
+.uui-navbar03_component .menu-button.w--open .header-menu-button-icon-top,
+.uui-navbar03_component .menu-button.w--open .header-menu-button-icon-medium,
+.uui-navbar03_component .menu-button.w--open .header-menu-button-icon-bottom,
+.header .menu-button:hover .header-menu-button-icon-top,
+.header .menu-button:hover .header-menu-button-icon-medium,
+.header .menu-button:hover .header-menu-button-icon-bottom,
+.header .menu-button.w--open .header-menu-button-icon-top,
+.header .menu-button.w--open .header-menu-button-icon-medium,
+.header .menu-button.w--open .header-menu-button-icon-bottom {
+  background-color: #ffffff;
+}
