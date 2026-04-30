@@ -1,0 +1,38 @@
+.bcws-icon-square {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #2f79d8 0%, #1c5fb5 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px rgba(18, 64, 128, 0.24);
+}
+
+.bcws-icon-square svg {
+  width: 28px;
+  height: 28px;
+  stroke: #ffffff;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.card-home-feature-content + .bcws-icon-square,
+.card-feature-content + .bcws-icon-square {
+  margin-top: 12px;
+}
+
+.bcws-icon-square.bcws-icon-small {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(18, 64, 128, 0.2);
+}
+
+.bcws-icon-square.bcws-icon-small svg {
+  width: 14px;
+  height: 14px;
+  stroke-width: 2.3;
+}

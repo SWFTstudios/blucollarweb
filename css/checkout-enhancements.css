@@ -1,0 +1,57 @@
+.pricing-wrapper .card.plan-item {
+  background: linear-gradient(145deg, #163b73 0%, #1f4d8f 55%, #2d6bb6 100%);
+  border: 1px solid rgba(170, 203, 245, 0.35);
+  box-shadow: 0 16px 34px rgba(10, 29, 61, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.pricing-wrapper .card.plan-item .paragraph.card-plan-item-summary,
+.pricing-wrapper .card.plan-item .card-plan-item-feature-text,
+.pricing-wrapper .card.plan-item .paragraph-small.card-plan-item-content-bottom-small-print {
+  color: #e9f2ff;
+}
+
+.pricing-wrapper .card.plan-item .button-primary.small {
+  cursor: pointer;
+}
+
+.w-commerce-commercelayoutcontainer .card.checkout {
+  background: linear-gradient(145deg, #143465 0%, #1a437b 55%, #22528e 100%);
+  border: 1px solid rgba(158, 195, 241, 0.34);
+  box-shadow: 0 16px 32px rgba(8, 23, 49, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.w-commerce-commercelayoutcontainer .checkout-field-label,
+.w-commerce-commercelayoutcontainer .checkout-required-text,
+.w-commerce-commercelayoutcontainer .checkout-line-item,
+.w-commerce-commercelayoutcontainer .order-summary-subtotal,
+.w-commerce-commercelayoutcontainer .order-summary-total {
+  color: #f3f8ff;
+}
+
+.w-commerce-commercelayoutcontainer .input.checkout,
+.w-commerce-commercelayoutcontainer .select.checkout,
+.w-commerce-commercelayoutcontainer .input.discounts {
+  color: #ffffff;
+  background: rgba(8, 24, 49, 0.6);
+  border: 1px solid rgba(157, 193, 237, 0.42);
+}
+
+.w-commerce-commercelayoutcontainer .input.checkout::placeholder,
+.w-commerce-commercelayoutcontainer .input.discounts::placeholder {
+  color: rgba(229, 239, 252, 0.76);
+}
+
+.checkout-plan-summary {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(160, 196, 239, 0.34);
+  background: linear-gradient(140deg, rgba(44, 100, 170, 0.32), rgba(18, 47, 88, 0.5));
+  color: #f2f7ff;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.checkout-plan-summary strong {
+  color: #ffffff;
+}

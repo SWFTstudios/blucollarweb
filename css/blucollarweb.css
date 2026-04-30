@@ -7964,7 +7964,8 @@ figcaption {
   }
 
   .title.home-perks {
-    max-width: 490px;
+    max-width: none;
+    width: 100%;
   }
 
   .title.h4-size.plan-content-top-features {
@@ -9473,7 +9474,8 @@ figcaption {
   }
 
   .title.home-perks {
-    max-width: 468px;
+    max-width: none;
+    width: 100%;
   }
 
   .title.h4-size {
