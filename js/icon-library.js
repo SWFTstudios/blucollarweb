@@ -12,6 +12,7 @@
     bot: '<symbol id="bcws-bot" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M12 4v4M9 13h.01M15 13h.01"/></symbol>',
     mail: '<symbol id="bcws-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>',
     social: '<symbol id="bcws-social" viewBox="0 0 24 24"><path d="M17 7h.01M7 7h.01M12 12h.01M17 17h.01M7 17h.01"/><path d="M17 7 7 17M7 7l10 10"/></symbol>',
+    target: '<symbol id="bcws-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></symbol>',
     tag: '<symbol id="bcws-tag" viewBox="0 0 24 24"><path d="M20.59 13.41 11 3H4v7l9.59 9.59a2 2 0 0 0 2.82 0l4.18-4.18a2 2 0 0 0 0-2.82z"/><path d="M7 7h.01"/></symbol>',
     check: '<symbol id="bcws-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>',
     tool: '<symbol id="bcws-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.66 5.66L3 18v3h3l6.04-6.04a4 4 0 0 0 5.66-5.66l-2.12 2.12-2.83-2.83z"/></symbol>',
@@ -98,6 +99,10 @@
       }
       if (title.indexOf("social media ad templates") !== -1) {
         setIconOnSquare(square, "social");
+        return;
+      }
+      if (title.indexOf("social media post scheduling") !== -1) {
+        setIconOnSquare(square, "target");
         return;
       }
       if (title.indexOf("marketing funnels") !== -1) {
