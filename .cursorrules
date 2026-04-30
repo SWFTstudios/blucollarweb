@@ -1,0 +1,53 @@
+# Blu Collar Web Solutions - Cursor Rules
+
+## Project Overview
+Web design agency site targeting blue-collar contractors.
+Exported from Webflow, rebuilt as a clean static site.
+Audience: plumbers, roofers, HVAC techs, electricians, landscapers.
+
+## Tech Stack
+- Plain HTML, CSS, JavaScript (no framework unless explicitly added)
+- No build tools required unless introduced intentionally
+- Deployed on Vercel or Netlify
+
+## Code Style
+- Use semantic HTML5 elements (`section`, `nav`, `main`, `article`, `footer`)
+- CSS: use custom properties (variables) for all colors, fonts, and spacing
+- Mobile-first responsive design; always check mobile layout
+- No inline styles
+- Class names must use kebab-case (e.g., `.hero-section`, `.pricing-card`)
+- Keep CSS organized in this order: layout -> components -> utilities
+- JavaScript must stay vanilla; no jQuery or unnecessary libraries
+
+## Content and Copy Rules
+- Write all copy at a 6th-8th grade reading level with plain, direct language
+- Avoid jargon: use clear outcomes like "get more calls"
+- Write for busy tradespeople, not marketers
+- Every section must communicate a clear visitor outcome
+
+## Design Principles
+- Brand colors: primary blue (`#1B3A6B` or nearest export match), white, light gray
+- Typography: match Webflow export fonts
+- Maintain consistent spacing using existing CSS variables
+- CTAs should be action-oriented ("Get Started", "See Our Work", "Book a Call")
+
+## What Not To Do
+- Do not add Lorem Ipsum or placeholder content; flag it instead
+- Do not add dependencies or npm packages without approval
+- Do not change visual design without explicit instruction
+- Do not remove existing sections without confirmation
+- Do not auto-format the entire codebase without asking first
+
+## Git Practices
+- Use Conventional Commits format (e.g., `feat: ...`, `fix: ...`, `chore: ...`)
+- Keep one logical change per commit
+- Always confirm before committing or pushing
+
+## Known Issues To Fix (Do Not Auto-Fix)
+- Lorem ipsum testimonials need replacing
+- Broken feature comparison table on pricing page
+- Leftover Webflow template content (VR/Matterport section, IPO blog posts)
+- Pricing tiers need "Everything in [tier], plus..." language
+- Missing About/founder section
+- No phone number or location in header/footer
+- Missing FAQ section on pricing page

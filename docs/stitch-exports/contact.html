@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact - Blu Collar Web Solutions</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e2e2e2",
+                        "inverse-surface": "#2f3131",
+                        "tertiary-fixed-dim": "#9dcbfb",
+                        "on-tertiary-container": "#a5d1ff",
+                        "secondary-container": "#aed2ff",
+                        "on-error": "#ffffff",
+                        "surface-container": "#eeeeee",
+                        "on-primary-fixed-variant": "#004884",
+                        "primary": "#004078",
+                        "error": "#ba1a1a",
+                        "background": "#f9f9f9",
+                        "secondary-fixed": "#d1e4ff",
+                        "on-secondary": "#ffffff",
+                        "tertiary-container": "#285a84",
+                        "secondary": "#3d6188",
+                        "outline": "#727781",
+                        "on-tertiary-fixed-variant": "#124a73",
+                        "on-primary-fixed": "#001c39",
+                        "surface-bright": "#f9f9f9",
+                        "error-container": "#ffdad6",
+                        "on-background": "#1a1c1c",
+                        "on-secondary-fixed": "#001d36",
+                        "tertiary": "#03426b",
+                        "on-surface": "#1a1c1c",
+                        "on-primary": "#ffffff",
+                        "surface-variant": "#e2e2e2",
+                        "on-primary-container": "#b0cfff",
+                        "primary-fixed": "#d4e3ff",
+                        "surface-dim": "#dadada",
+                        "tertiary-fixed": "#cfe5ff",
+                        "on-secondary-fixed-variant": "#24496f",
+                        "on-error-container": "#93000a",
+                        "surface": "#f9f9f9",
+                        "inverse-primary": "#a4c9ff",
+                        "on-secondary-container": "#365a81",
+                        "surface-tint": "#2260a2",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#a4c9ff",
+                        "outline-variant": "#c2c6d2",
+                        "primary-container": "#16589a",
+                        "on-tertiary-fixed": "#001d33",
+                        "surface-container-high": "#e8e8e8",
+                        "secondary-fixed-dim": "#a6c9f6",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f3f3f4",
+                        "on-surface-variant": "#424750",
+                        "inverse-on-surface": "#f0f1f1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "grid-margin": "24px",
+                        "grid-gutter": "20px",
+                        "section-gap": "80px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Manrope"],
+                        "body-lg": ["Inter"],
+                        "label-bold": ["Inter"],
+                        "headline-xl": ["Manrope"],
+                        "headline-md": ["Manrope"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["36px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-bold": ["14px", { "lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined[style*="'FILL' 1"] {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar (Generated from JSON) -->
+<nav class="bg-white/95 dark:bg-slate-900/95 backdrop-blur-md fixed top-0 w-full z-50 border-b border-slate-200 dark:border-slate-800 flat no-shadows font-manrope antialiased tracking-tight">
+<div class="max-w-7xl mx-auto px-8 flex justify-between items-center h-20">
+<!-- Brand -->
+<div class="flex items-center">
+<span class="text-xl font-extrabold text-blue-900 dark:text-white tracking-tighter">BLU COLLAR WEB</span>
+</div>
+<!-- Navigation Links (Desktop) -->
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-all duration-200 active:scale-95 transform transition-transform" href="#">Home</a>
+<a class="text-slate-600 dark:text-slate-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-all duration-200 active:scale-95 transform transition-transform" href="#">Services</a>
+<a class="text-slate-600 dark:text-slate-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-all duration-200 active:scale-95 transform transition-transform" href="#">Pricing</a>
+<a class="text-slate-600 dark:text-slate-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-all duration-200 active:scale-95 transform transition-transform" href="#">Case Studies</a>
+<!-- Active Navigation Item based on intent -->
+<a class="text-blue-700 dark:text-blue-400 border-b-2 border-blue-700 dark:border-blue-400 pb-1 font-bold hover:text-blue-800 dark:hover:text-blue-300 transition-all duration-200 active:scale-95 transform transition-transform" href="#">Contact</a>
+</div>
+<!-- Trailing Action -->
+<div class="hidden md:flex items-center">
+<button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-6 rounded text-sm tracking-wide transition-colors">GET A FREE AUDIT</button>
+</div>
+<!-- Mobile Menu Toggle (Visual only for structural completeness) -->
+<div class="md:hidden flex items-center">
+<span class="material-symbols-outlined text-slate-800 text-3xl cursor-pointer">menu</span>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pt-32 pb-24">
+<section class="max-w-container-max mx-auto px-8">
+<!-- Bento Layout Split -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-grid-gutter items-start">
+<!-- Left Column: Trust & Info -->
+<div class="lg:col-span-5 flex flex-col gap-10">
+<div>
+<div class="flex flex-wrap gap-3 mb-6">
+<span class="inline-flex items-center gap-1.5 bg-surface-container-high text-on-surface-variant px-3 py-1.5 rounded-full border border-outline-variant font-label-bold text-[12px] uppercase">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+                                NYC/NJ Local
+                            </span>
+<span class="inline-flex items-center gap-1.5 bg-surface-container-high text-on-surface-variant px-3 py-1.5 rounded-full border border-outline-variant font-label-bold text-[12px] uppercase">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+                                Licensed &amp; Insured
+                            </span>
+</div>
+<h1 class="font-headline-xl text-on-background mb-4">Let's build your digital foundation.</h1>
+<p class="font-body-lg text-on-surface-variant">We partner exclusively with local trades to dominate search, capture high-quality leads, and scale operations. Reach out to get your free digital audit.</p>
+</div>
+<!-- Contact Details Cards -->
+<div class="flex flex-col gap-4">
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-lg flex items-start gap-4">
+<div class="bg-primary-fixed text-on-primary-fixed p-3 rounded-DEFAULT flex-shrink-0">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<h3 class="font-label-bold text-on-surface mb-1 uppercase text-sm">Call Us Directly</h3>
+<p class="font-headline-md text-primary mb-1">(800) 555-0199</p>
+<p class="font-body-md text-on-surface-variant text-sm">Mon-Fri, 7am - 6pm EST</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-lg flex flex-col sm:flex-row gap-6">
+<div class="flex-1">
+<h3 class="font-label-bold text-on-surface mb-2 uppercase text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">domain</span> NYC Office
+                                </h3>
+<p class="font-body-md text-on-surface-variant">100 Broadway, Suite 1500<br/>New York, NY 10005</p>
+</div>
+<div class="w-px bg-outline-variant hidden sm:block"></div>
+<div class="flex-1">
+<h3 class="font-label-bold text-on-surface mb-2 uppercase text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">domain</span> NJ Office
+                                </h3>
+<p class="font-body-md text-on-surface-variant">45 Industrial Pkwy<br/>Newark, NJ 07104</p>
+</div>
+</div>
+</div>
+<!-- Contextual Image representing local authority -->
+<div class="relative h-48 rounded-xl overflow-hidden border border-outline-variant mt-4">
+<img alt="Construction worker looking over blueprints on a high-rise site" class="w-full h-full object-cover" data-alt="A high-quality, professional photograph of a construction site manager wearing a hard hat, reviewing blueprints against the backdrop of the New York City skyline. The lighting is crisp and bright daylight, emphasizing a sense of sturdy reliability and hard work. The color palette features cool industrial grays, vibrant safety yellows, and the deep blue of the sky, aligning perfectly with a premium blue-collar corporate aesthetic. The mood is confident, authoritative, and focused on building." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2zi2c8HPqxQLldL_0XXbfgtwtuwno7ymxkxBRXRX-x7ZflK8K-fbCi5eTelvpnJbfE6ooizP1RKRv3w5j7YrIiEM-2yoPFDIy8mjg8ffUyCSSATxcAWUBNjxwApPoP8MV6nk79AhBVXYJDeZJThfZUccCRx9MUsXTFbENDcfxSpnwVj-LcgsFA7B7uQRFxE3GXngHjJ8JYYFfmn412eYfhu9DmJud22aZXWpT6ltBraxyX-gV6kJgebA0HWOnyNL2ETUCHgtM14E"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+<p class="font-label-bold text-white uppercase tracking-wider text-sm">Built for the Tri-State Area</p>
+</div>
+</div>
+</div>
+<!-- Right Column: The Form Card -->
+<div class="lg:col-span-7">
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant shadow-sm p-8 md:p-10 relative overflow-hidden">
+<!-- Subtle background accent -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-fixed opacity-20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+<div class="mb-8 relative z-10">
+<h2 class="font-headline-lg text-on-surface mb-2">Get Your Free Digital Audit Today</h2>
+<p class="font-body-md text-on-surface-variant">Fill out the details below. Our team will review your current digital presence and contact you within 24 hours.</p>
+</div>
+<form class="space-y-6 relative z-10">
+<!-- Business Name -->
+<div>
+<label class="font-label-bold text-on-surface block mb-2 uppercase text-[12px]" for="business_name">Business Name</label>
+<input class="w-full bg-surface border border-outline-variant text-on-surface font-body-md rounded-DEFAULT px-4 py-3 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors placeholder:text-outline" id="business_name" name="business_name" placeholder="e.g. Apex Plumbing Solutions" type="text"/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Service Type -->
+<div>
+<label class="font-label-bold text-on-surface block mb-2 uppercase text-[12px]" for="service_type">Primary Service</label>
+<div class="relative">
+<select class="w-full bg-surface border border-outline-variant text-on-surface font-body-md rounded-DEFAULT px-4 py-3 appearance-none focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors" id="service_type" name="service_type">
+<option disabled="" selected="" value="">Select a trade...</option>
+<option value="plumbing">Plumbing</option>
+<option value="hvac">HVAC</option>
+<option value="electrical">Electrical</option>
+<option value="roofing">Roofing</option>
+<option value="general_contracting">General Contracting</option>
+<option value="other">Other</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Location -->
+<div>
+<label class="font-label-bold text-on-surface block mb-2 uppercase text-[12px]" for="location">Operating Area</label>
+<input class="w-full bg-surface border border-outline-variant text-on-surface font-body-md rounded-DEFAULT px-4 py-3 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors placeholder:text-outline" id="location" name="location" placeholder="e.g. Brooklyn, NY" type="text"/>
+</div>
+</div>
+<!-- Contact Info Split -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="font-label-bold text-on-surface block mb-2 uppercase text-[12px]" for="full_name">Your Name</label>
+<input class="w-full bg-surface border border-outline-variant text-on-surface font-body-md rounded-DEFAULT px-4 py-3 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors placeholder:text-outline" id="full_name" name="full_name" placeholder="John Doe" type="text"/>
+</div>
+<div>
+<label class="font-label-bold text-on-surface block mb-2 uppercase text-[12px]" for="email">Email Address</label>
+<input class="w-full bg-surface border border-outline-variant text-on-surface font-body-md rounded-DEFAULT px-4 py-3 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors placeholder:text-outline" id="email" name="email" placeholder="john@example.com" type="email"/>
+</div>
+</div>
+<!-- Additional Details -->
+<div>
+<label class="font-label-bold text-on-surface block mb-2 uppercase text-[12px]" for="message">Current Challenge (Optional)</label>
+<textarea class="w-full bg-surface border border-outline-variant text-on-surface font-body-md rounded-DEFAULT px-4 py-3 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors placeholder:text-outline resize-none" id="message" name="message" placeholder="Briefly describe what you're looking to improve..." rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<div class="pt-4">
+<button class="w-full bg-primary-container text-on-primary font-label-bold text-[16px] py-4 px-8 rounded-DEFAULT uppercase tracking-wider shadow-[0_10px_20px_rgba(14,56,93,0.08)] hover:bg-primary transition-all duration-300 flex justify-center items-center gap-2 group" type="submit">
+                                    Request Free Audit
+                                    <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+<p class="text-center font-body-md text-[13px] text-on-surface-variant mt-4">
+                                    No commitment required. Secure and confidential.
+                                </p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Generated from JSON) -->
+<footer class="bg-slate-50 dark:bg-slate-950 font-manrope text-sm w-full border-t mt-20 border-slate-200 dark:border-slate-800 flat no-shadows">
+<div class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
+<!-- Brand & Copyright -->
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="text-lg font-bold text-blue-900 dark:text-slate-100">BLU COLLAR WEB</span>
+<span class="text-slate-500 dark:text-slate-500">© 2024 Blu Collar Web Solutions. Built for NYC &amp; NJ Trades.</span>
+</div>
+<!-- Footer Links -->
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-slate-500 dark:text-slate-500 hover:underline hover:text-blue-800 dark:hover:text-blue-300 opacity-80 hover:opacity-100 transition-opacity" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-500 hover:underline hover:text-blue-800 dark:hover:text-blue-300 opacity-80 hover:opacity-100 transition-opacity" href="#">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-500 hover:underline hover:text-blue-800 dark:hover:text-blue-300 opacity-80 hover:opacity-100 transition-opacity" href="#">Local Authority</a>
+<a class="text-blue-700 dark:text-blue-400 font-semibold hover:underline hover:text-blue-800 dark:hover:text-blue-300 opacity-80 hover:opacity-100 transition-opacity" href="#">Contact Us</a>
+</div>
+</div>
+</footer>
+</body></html>
