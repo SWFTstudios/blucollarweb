@@ -2,11 +2,41 @@
   var linkMap = {
     home: "index.html#home",
     services: "index.html#services",
+    features: "/features.html",
     work: "index.html#work",
     about: "about.html",
     pricing: "pricing.html",
     contact: "contact.html"
   };
+
+  function ensureFeaturesLink() {
+    var navLists = document.querySelectorAll(".header-navigation");
+    navLists.forEach(function (list) {
+      var existing = Array.prototype.find.call(list.querySelectorAll(".nav-link"), function (link) {
+        return link.textContent.trim().toLowerCase() === "features";
+      });
+      if (existing) return;
+
+      var servicesItem = Array.prototype.find.call(list.querySelectorAll(".nav-item-wrapper"), function (item) {
+        var link = item.querySelector(".nav-link");
+        return link && link.textContent.trim().toLowerCase() === "services";
+      });
+      if (!servicesItem || !servicesItem.parentNode) return;
+
+      var li = document.createElement("li");
+      li.className = "nav-item-wrapper";
+
+      var anchor = document.createElement("a");
+      anchor.className = "nav-link";
+      anchor.href = "features.html";
+      anchor.textContent = "Features";
+
+      li.appendChild(anchor);
+      servicesItem.parentNode.insertBefore(li, servicesItem.nextSibling);
+    });
+  }
+
+  ensureFeaturesLink();
 
   var navLinks = document.querySelectorAll(
     ".header .nav-link, .uui-navbar03_component .nav-link, .header .button-primary.small-v2.w-nav-link, .header .button-primary.small-v2.mobile-button.w-button, .uui-navbar03_component .button-primary.small-v2.mobile-button.w-button"

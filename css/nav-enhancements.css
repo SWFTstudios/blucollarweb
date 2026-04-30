@@ -1,8 +1,11 @@
 .uui-navbar03_component,
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 1200;
+.header,
+.uui-navbar03_component.w-nav,
+.header.w-nav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1200 !important;
+  width: 100%;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
